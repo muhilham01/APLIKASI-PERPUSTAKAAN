@@ -10,11 +10,17 @@
 
 #TUTORIAL PENGGUNAN PROGRAM
 
--Run Program menggunakan dev C++ atau compiler C lainnya.
--Kemudian Anda akan masuk ke menu utama.
--Disarankan untuk memilih menu help terlebih dahulu.
--Pahami menu help dengan baik.
--Kemudian kembali ke menu utama pilih menu yang diinginkan.
--Apabila terdapat instruksi di menu tersebut, maka ikutilah dengan cermat dan teliti.
--Jika ingin keluar dari program pilih menu exit di menu utama.
+  -Run Program menggunakan dev C++ atau compiler C lainnya.
+
+  -Kemudian Anda akan masuk ke menu utama.
+ 
+  -Disarankan untuk memilih menu help terlebih dahulu.
+  
+  -Pahami menu help dengan baik.
+  
+  -Kemudian kembali ke menu utama pilih menu yang diinginkan.
+  
+  -Apabila terdapat instruksi di menu tersebut, maka ikutilah dengan cermat dan teliti.
+  
+  -Jika ingin keluar dari program pilih menu exit di menu utama.
 
