@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <windows.h>
 #include <winnt.h>
-
+#include <string.h>
 
 /*
 				NAMA KELOMPOK :
@@ -38,66 +38,67 @@ char terbit[100]; //variabel untuk menmapung tahun terbit buku
 char penulis1 [100], penulis2 [100], penulis3 [100]; //variabel untuk menampung nama penulis buku dalam 3 suku kata
 int system();
 
-void header ()
+void header () //Fungsi header pada program ynag digunakan sebagai judul
 {
 	printf ("");
 	printf ("\t\t=======================================\n");
 	printf ("\t\t           Selamat datang\n");
 	printf ("\t\t       APLIKASI PERPUSTAKAAN\n");
 	printf ("\t\t=======================================\n");
+	printf ("\t\tcreated by : Muhammad Hamzah \n\t\t\t     Muhammad Ilham Akbar \n");
 	
 }
 
-void header_menu()
+void header_menu() //Fungsi header untuk tampilan menu
 {
 	printf ("\t\t=======================================\n");
 	printf ("\t\t|           PERPUSTAKAAN              |\n");        
 	printf ("\t\t=======================================\n");
 }
 
-void peminjaman_header()
+void peminjaman_header() //Fungsi header pada 'menu peminjaman'
 {
 	printf ("\t\t=======================================\n");
 	printf ("\t\t     	       Pinjam Buku\n");
 	printf ("\t\t=======================================\n");
 } 
 
-void pengembalian_header()
+void pengembalian_header() //Fungsi header pada menu 'pengembalian buku'
 {
 	printf ("\t\t=======================================\n");
 	printf ("\t\t  	     Pengembalian Buku\n");
 	printf ("\t\t=======================================\n");
 }
 
-void penambahan_header()
+void penambahan_header() //Fungsi header pada menu 'penambahan buku'
 {
 	printf ("\t\t=======================================\n");
 	printf ("\t\t            Penambahan Buku\n");
 	printf ("\t\t=======================================\n");
 } 
 
-void hapus_buku_header()
+void hapus_buku_header() //Fungsi header pada menu 'hapus buku'
 {
 	printf ("\t\t=======================================\n");
 	printf ("\t\t  Hapus Buku dari Daftar Buku Tersedia\n");
 	printf ("\t\t=======================================\n");
 }
 
-void daftar_peminjam_header()
+void daftar_peminjam_header() //Fungsi header pada menu 'Daftar pinjam buku'
 {
 	printf ("\t\t=======================================\n");
 	printf ("\t\t         Daftar Peminjam Buku\n");
 	printf ("\t\t=======================================\n");
 } 
 
-void daftar_buku_header()
+void daftar_buku_header()//Fungsi header pada menu 'Daftar buku buku'
 {
 	printf ("\t\t=======================================\n");
 	printf ("\t\t           Daftar Buku Tersedia\n");
 	printf ("\t\t=======================================\n");
 } 
 
-void help_header()
+void help_header() //Fungsi header pada menu 'Help'
 {
 	printf ("\t\t=======================================\n");
 	printf ("\t\t             Bantuan/Help\n");
@@ -509,6 +510,5 @@ void help()
 	system("cls");
 	menu();
 }
-
 
 
